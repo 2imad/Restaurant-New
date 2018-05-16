@@ -1,0 +1,170 @@
+
+
+.container-fluid{
+    width:100%;
+}
+
+nav a {
+    letter-spacing: 3px;
+    color:#CDD96B;
+    font-size: 1.25em
+}
+#title{
+    letter-spacing:100px;
+    
+    }
+nav a:hover{
+    text-decoration: none;
+    color:#82BF57
+}
+#logo{
+   width:14rem;
+   opacity: 0.4;
+}
+*{
+ font-family: 'Josefin Slab', serif;
+}
+.card-img-top{
+   opacity: 0.9;
+   max-width: 100%
+}
+.card-img-overlay{
+    display: none
+}
+#desc-head{
+    font-weight:200;
+    line-height: 2;
+    font-size: 5em;
+    color:#CDD96B;
+    
+}
+.lead{
+    font-size: 1.75em
+}
+.card-group{
+    width:100%
+}
+
+
+
+@media only screen 
+    and (min-device-width:320px)
+    and (max-device-width:1025px)
+{
+    #desc-head{
+        font-size:2.2em
+    }
+    .lead{
+        font-size:1.5em
+    }
+    nav a{
+        font-size:1em   
+    }
+    #title{
+        margin-left:2.6em !important
+    }
+    .example-image{
+        width: 10em
+    }
+    
+
+
+}
+
+@media only screen 
+  and (min-device-width: 320px)
+  and (max-device-width: 557px) 
+   {
+       #display-none{
+           display: none
+       }
+    #desc-head{
+        font-size:1.5em;
+        letter-spacing:5;
+        
+
+    }
+    .lead{
+        font-size: 1em
+    }
+    #logo{
+        width:6em
+    }
+    #title{
+        letter-spacing:20px;
+        margin-left:0 !important
+    }
+    .example-image{
+        width: 6em !important
+    }
+    ul.icons li a i{
+        font-size: 1.4em !important;
+    }
+    .d-inline{
+        padding: 0.8em !important
+    }
+    .display-8{
+        margin:0.7em !important
+    }
+   
+}
+.btn{
+    background:#fff;
+    font-size:1.75em;
+}
+.btn:hover{
+    color:#CDD96B
+}
+.gallery{
+    width: 100%;
+    max-width: 100%;
+    display: block
+    }
+.example-image{
+    width: 22em 
+}
+
+
+#gallery-header{
+   letter-spacing: 12px;
+   opacity: 0.7;
+}
+label{
+    color:#B3D17D
+}
+hr{
+    width:50%;
+    letter-spacing: 5;
+    margin-top: 5em
+}
+.left{
+    
+    text-align: right
+}
+.right{
+    
+    text-align: left
+}
+.pagewidth{
+    width:100%;
+    padding: 0;
+    margin:0;
+}
+ul.icons li a i{
+    font-size:3em;
+     color :#B3D17D;
+    line-height: 1.2em;
+    
+}
+ul.icons li a i:hover{
+    opacity:0.5
+}
+.nav-link{
+    color: #B3D17D
+}
+.container-fluid{
+    opacity:0
+}
+html {
+    overflow-x: hidden;
+  }
